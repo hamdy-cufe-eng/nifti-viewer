@@ -11,11 +11,11 @@
 </p>
 <div align="center">
 
-[![GitHub contributors](https://img.shields.io/github/contributors/hamdy-cufe-eng/Image-Viewer)](https://github.com/hamdy-cufe-eng/Image-Viewer/contributors)
-[![GitHub issues](https://img.shields.io/github/issues/hamdy-cufe-eng/Image-Viewer)](https://github.com/hamdy-cufe-eng/Image-Viewer/issues)
-[![GitHub forks](https://img.shields.io/github/forks/hamdy-cufe-eng/Image-Viewer)](https://github.com/hamdy-cufe-eng/Image-Viewer/network)
-[![GitHub stars](https://img.shields.io/github/stars/hamdy-cufe-eng/Image-Viewer)](https://github.com/hamdy-cufe-eng/Image-Viewer/stargazers)
-[![GitHub license](https://img.shields.io/github/license/hamdy-cufe-eng/Image-Viewer)](https://github.com/hamdy-cufe-eng/Image-Viewer/blob/main/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/hamdy-cufe-eng/nifti-viewer)](https://github.com/hamdy-cufe-eng/nifti-viewer/contributors)
+[![GitHub issues](https://img.shields.io/github/issues/hamdy-cufe-eng/nifti-viewer)](https://github.com/hamdy-cufe-eng/nifti-viewer/issues)
+[![GitHub forks](https://img.shields.io/github/forks/hamdy-cufe-eng/nifti-viewer)](https://github.com/hamdy-cufe-eng/nifti-viewer/network)
+[![GitHub stars](https://img.shields.io/github/stars/hamdy-cufe-eng/nifti-viewer)](https://github.com/hamdy-cufe-eng/nifti-viewer/stargazers)
+[![GitHub license](https://img.shields.io/github/license/hamdy-cufe-eng/nifti-viewer)](https://github.com/hamdy-cufe-eng/nifti-viewer/blob/main/LICENSE)
 
 </div>
 
@@ -59,7 +59,7 @@
 ## 🏁 Get Started /Installation <a name = "install"></a>
 1. **Clone the repository**
 ```
-git clone https://github.com/hamdy-cufe-eng/Image-Viewer.git
+git clone https://github.com/hamdy-cufe-eng/nifti-viewer.git
 ```
 2. **Install Visual Studio Code || PyCharm**
 
@@ -81,21 +81,18 @@ pip install
 ## 📌 How to use <a name = "start"></a>
 
 ### Usage :
-- After compiling the project , try to load the desired image using the **File** in the menu bar
-- You can apply various changes in the multiple viewports available 
-- You can also calculate the SNR / CNR values 
+- After compiling the project , try to load the desired nifti file using the **Load Image** button in the menu bar
+- You can apply various changes in each view
+- You can also View 2D views or 3D Renderer
 
 ## 🎆 Features <a name = "features"></a>
 
-- Applying High/low pass filters
-- Viewing Histogram by double clicking the image
+- Displaying the 3 main views of a CT-SCAN
+- Ability to play the slices as a video-playback
 - Applying Brightness
-- Applying Contrast with 4 different methods
-- Calculating SNR /CNR
-- Zooming up to 4x !
-- Applying multiple zoom methods ( **Nearest Neighbor** , **Linear** , **Bi-Linear**, **Cubic** ) 
-- Applying multiple noise techniques ( **Poisson Noise** , **Gaussian Noise** , **Salt & Pepper Noise** )
-- Applying multiple denoising techniques ( **Median Filter** , **Gaussian Filter** , **Non-Local means Filter** )
+- Applying Contrast
+- Zooming up to 8x !
+- Viewing of the **3D MODEL** 
 - Modern Flat-UI 
 
 ## 📷 Screenshots <a name = "screenshots" ></a>
@@ -103,10 +100,12 @@ pip install
 <div name="Screenshots" align="center">
    <img width=60% src="Screenshots/Screenshot_1.png" alt="logo">
    <hr>
+<img width=60% src="Screenshots/Screenshot_2.png" alt="logo">
+   <hr>
     <img width=60% src="Screenshots/Screenshot_3.png" alt="logo">
     <hr>
   
-   <img width=60% src="Screenshots/Screenshot_2.png" alt="logo">
+   <img width=60% src="Screenshots/Screenshot_4.png" alt="logo">
    <hr>
 </div>
 
